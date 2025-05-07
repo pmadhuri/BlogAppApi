@@ -1,0 +1,155 @@
+04.27. 20.13.15.248 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+04.27. 20.13.15.317 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1069 ms
+04.27. 20.13.15.965 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04.27. 20.13.16.470 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+04.27. 20.13.16.538 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+04.27. 20.13.16.577 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
+04.27. 20.14.27.462 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04.27. 20.14.27.561 [Thread-7] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+04.27. 20.14.28.889 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+04.27. 20.14.30.508 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+04.27. 20.14.30.548 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 822 ms
+04.27. 20.14.30.780 [restartedMain] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes\com\codeWithMadhuri\blog\controllers\UserController.class]: Failed to instantiate [com.codeWithMadhuri.blog.controllers.UserController]: Constructor threw exception
+04.27. 20.14.30.795 [restartedMain] [INFO] [o.s.b.a.l.ConditionEvaluationReportLogger]-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+04.27. 20.14.30.856 [restartedMain] [ERROR] [o.s.boot.SpringApplication]-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes\com\codeWithMadhuri\blog\controllers\UserController.class]: Failed to instantiate [com.codeWithMadhuri.blog.controllers.UserController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1234)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.codeWithMadhuri.blog.BlogAppApi2Application.main(BlogAppApi2Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.codeWithMadhuri.blog.controllers.UserController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343)
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import com.logger cannot be resolved
+	WelcomeController cannot be resolved to a type
+
+	at com.codeWithMadhuri.blog.controllers.UserController.<init>(UserController.java:16)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196)
+	... 26 common frames omitted
+04.27. 20.15.40.968 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 23412 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+04.27. 20.15.40.972 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+04.27. 20.15.41.058 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04.27. 20.15.41.058 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04.27. 20.15.43.282 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+04.27. 20.15.43.426 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 2365 ms
+04.27. 20.15.47.492 [restartedMain] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes\com\codeWithMadhuri\blog\controllers\UserController.class]: Failed to instantiate [com.codeWithMadhuri.blog.controllers.UserController]: Constructor threw exception
+04.27. 20.15.47.571 [restartedMain] [INFO] [o.s.b.a.l.ConditionEvaluationReportLogger]-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+04.27. 20.15.47.613 [restartedMain] [ERROR] [o.s.boot.SpringApplication]-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes\com\codeWithMadhuri\blog\controllers\UserController.class]: Failed to instantiate [com.codeWithMadhuri.blog.controllers.UserController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1234)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.codeWithMadhuri.blog.BlogAppApi2Application.main(BlogAppApi2Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.codeWithMadhuri.blog.controllers.UserController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:222)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1343)
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import com.logger cannot be resolved
+	WelcomeController cannot be resolved to a type
+
+	at com.codeWithMadhuri.blog.controllers.UserController.<init>(UserController.java:16)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:196)
+	... 26 common frames omitted
+04.27. 20.16.25.624 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 32956 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+04.27. 20.16.25.627 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+04.27. 20.16.25.705 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04.27. 20.16.25.705 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04.27. 20.16.27.509 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+04.27. 20.16.27.618 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1912 ms
+04.27. 20.16.30.723 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04.27. 20.16.31.261 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+04.27. 20.16.31.337 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+04.27. 20.16.31.357 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 6.252 seconds (process running for 7.527)
+04.27. 20.16.56.458 [http-nio-9098-exec-2] [INFO] [c.c.blog.controllers.UserController]-create user method started
+04.27. 20.16.56.591 [http-nio-9098-exec-2] [INFO] [c.c.blog.controllers.UserController]-create user method ended
+04.27. 20.17.57.380 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04.27. 20.17.57.414 [Thread-5] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+04.27. 20.17.57.724 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+04.27. 20.17.57.996 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 32956 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+04.27. 20.17.57.997 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+04.27. 20.17.58.438 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+04.27. 20.17.58.465 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 464 ms
+04.27. 20.17.58.782 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04.27. 20.17.58.933 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+04.27. 20.17.58.952 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+04.27. 20.17.58.969 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.041 seconds (process running for 95.141)
+04.27. 20.17.58.984 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
+04.27. 20.18.01.856 [RMI TCP Connection(12)-127.0.0.1] [INFO] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]-Application shutdown requested.
+04.27. 20.18.01.857 [RMI TCP Connection(12)-127.0.0.1] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+04.27. 20.18.01.986 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+04.27. 20.18.08.097 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 31816 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+04.27. 20.18.08.101 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+04.27. 20.18.08.202 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04.27. 20.18.08.202 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04.27. 20.18.10.126 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+04.27. 20.18.10.256 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 2053 ms
+04.27. 20.18.14.848 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04.27. 20.18.15.669 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+04.27. 20.18.15.852 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+04.27. 20.18.15.897 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 8.433 seconds (process running for 9.83)
+04.27. 20.18.37.492 [http-nio-9098-exec-1] [INFO] [c.c.blog.controllers.UserController]-create user method started
+04.27. 20.18.37.623 [http-nio-9098-exec-1] [INFO] [c.c.blog.controllers.UserController]-create user method ended
+04.27. 20.22.55.962 [RMI TCP Connection(12)-127.0.0.1] [INFO] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]-Application shutdown requested.
+04.27. 20.22.55.969 [RMI TCP Connection(12)-127.0.0.1] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+04.27. 20.22.56.285 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
