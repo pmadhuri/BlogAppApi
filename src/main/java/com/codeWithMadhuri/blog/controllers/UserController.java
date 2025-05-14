@@ -20,6 +20,8 @@ import com.codeWithMadhuri.blog.payloads.ApiResponse;
 import com.codeWithMadhuri.blog.payloads.UserDto;
 import com.codeWithMadhuri.blog.services.UserService;
 
+import jakarta.validation.Valid;
+
 
 @RestController
 @RequestMapping("/api/users")
@@ -30,7 +32,7 @@ private UserService userService;
 
 //1 createUser
 @PostMapping("/")
-public ResponseEntity<UserDto> createUser(@RequestBody UserDto userDto){
+public ResponseEntity<UserDto> createUser(@Valid @RequestBody UserDto userDto){
 	logger.info("create user method started");
 	UserDto createUserDto=this.userService.createUser(userDto);
 	logger.info("create user method ended");
@@ -42,7 +44,7 @@ public ResponseEntity<UserDto> createUser(@RequestBody UserDto userDto){
 
 //2 updateUser
 @PutMapping("/{userId}")
-public ResponseEntity<UserDto> updateUser(@RequestBody UserDto userDto,@PathVariable("userId") Integer uid){
+public ResponseEntity<UserDto> updateUser(@Valid @RequestBody UserDto userDto,@PathVariable("userId") Integer uid){
 	logger.info("update user method started");
 	UserDto updatedUser= this.userService.updateUser(userDto, uid);
 	logger.info("update user method ended");
