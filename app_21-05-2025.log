@@ -1,0 +1,10 @@
+05.21. 14.34.43.370 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 13492 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+05.21. 14.34.43.402 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+05.21. 14.34.43.625 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+05.21. 14.34.43.626 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+05.21. 14.34.48.581 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+05.21. 14.34.48.781 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 5153 ms
+05.21. 14.34.57.906 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05.21. 14.34.58.800 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+05.21. 14.34.58.914 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+05.21. 14.34.58.936 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 17.387 seconds (process running for 20.692)
