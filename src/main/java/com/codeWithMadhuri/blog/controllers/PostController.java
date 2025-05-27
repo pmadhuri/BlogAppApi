@@ -1,5 +1,7 @@
 package com.codeWithMadhuri.blog.controllers;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,14 +18,15 @@ import com.codeWithMadhuri.blog.services.PostService;
 @RestController
 @RequestMapping("/api/")
 public class PostController {
+	private static Logger logger = LoggerFactory.getLogger(UserController.class);
 	@Autowired
 	private PostService postService;
 	//create
 	@PostMapping("/user/{userId}/category/{categoryId}/posts")
 	public ResponseEntity<PostDto>  createPost(@RequestBody PostDto postDto,@PathVariable Integer userId,@PathVariable Integer categoryId){
-		
+		logger.info("createPost method started");
 		PostDto createPost=this.postService.createPost(postDto, categoryId, userId);
-		
+		logger.info("createPost method ended");
 		return new ResponseEntity<PostDto>(createPost,HttpStatus.CREATED);
 	}
 	
