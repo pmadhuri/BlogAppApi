@@ -25,11 +25,11 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/api/categories")
 public class CategoryController {
-	private static Logger logger = LoggerFactory.getLogger(UserController.class);
+	private static Logger logger = LoggerFactory.getLogger(CategoryController.class);
 	@Autowired
 	private CategoryServiceI categoryServiceI;
 
-	// create
+	//1 createCategory
 	
 	@PostMapping("/")
 	public ResponseEntity<CategoryDto> createCategory(@Valid @RequestBody CategoryDto categoryDto) {
@@ -40,7 +40,7 @@ public class CategoryController {
 
 	}
 	
-	//update
+	//2 updateCategory
 	
 	@PutMapping("/{categoryId}")
 	public ResponseEntity<CategoryDto> updateCategory(@Valid @RequestBody CategoryDto categoryDto,@PathVariable Integer categoryId){
@@ -51,7 +51,7 @@ public class CategoryController {
 		
 	}
 	
-	//delete
+	//3 deleteCategory
 	
 	@DeleteMapping("/{categoryId}")
 	public ResponseEntity<ApiResponse> deleteCategory(@PathVariable("categoryId") Integer cId){
@@ -63,7 +63,7 @@ public class CategoryController {
 		
 	}
 	
-	//get
+	//4 getSingleCategory
 	
 	@GetMapping("/{categoryId}")
 public ResponseEntity<CategoryDto> getSingleCategory(@PathVariable Integer categoryId){
@@ -74,7 +74,7 @@ public ResponseEntity<CategoryDto> getSingleCategory(@PathVariable Integer categ
 		
 	}
 	
-	//getAll
+	//5 getAllCategory
 	
 	@GetMapping("/")
 public ResponseEntity<List<CategoryDto>> getAllCategory(){
