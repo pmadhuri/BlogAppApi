@@ -14,11 +14,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.codeWithMadhuri.blog.entities.Post;
 import com.codeWithMadhuri.blog.payloads.ApiResponse;
 import com.codeWithMadhuri.blog.payloads.PostDto;
+import com.codeWithMadhuri.blog.payloads.PostResponse;
 import com.codeWithMadhuri.blog.services.PostService;
 
 import jakarta.validation.Valid;
@@ -61,13 +63,20 @@ public class PostController {
 
 	}
 
-	// 4 getAllPost
+	// 4 getAllPost  // url for postman //posts?pageNumber=1&pageSize=2&sortBy=postId&sortDir=dsc
 	@GetMapping("/posts")
-	public ResponseEntity<List<PostDto>> getAllPost() {
+	public ResponseEntity<PostResponse> getAllPost(
+			@RequestParam(value = "pageNumber",defaultValue = "0",required = false) Integer pageNumber,
+			@RequestParam(value = "pageSize",defaultValue = "10",required = false) Integer pageSize,
+			@RequestParam(value = "sortBy",defaultValue = "postId",required = false) String sortBy,
+			@RequestParam(value = "sortDir",defaultValue = "asc",required = false) String sortDir)
+	{
+		
+		
 		logger.info("getAllPost method started");
-		List<PostDto> allPost = this.postService.getAllPost();
+		PostResponse postResponse = this.postService.getAllPost(pageNumber,pageSize,sortBy,sortDir);
 		logger.info("getAllPost method ended");
-		return new ResponseEntity<List<PostDto>>(allPost, HttpStatus.OK);
+		return new ResponseEntity<PostResponse>(postResponse, HttpStatus.OK);
 	}
 
 	// 5 getPostById
@@ -99,5 +108,21 @@ public class PostController {
 		logger.info("updatePost method ended");
 		return new ResponseEntity<PostDto>(updatePost, HttpStatus.OK);
 	}
+	
+	// 7 search
+	
+	@GetMapping("/posts/search/{keywords}")
+	public ResponseEntity<List<PostDto>> searchPostByTitle(@PathVariable("keywords") String keywords){
+		
+		List<PostDto> result = this.postService.searchPosts(keywords);
+		return new ResponseEntity<List<PostDto>>(result,HttpStatus.OK);
+	}
+	
+	
+	
+	
+	
+	
+	
 
 }

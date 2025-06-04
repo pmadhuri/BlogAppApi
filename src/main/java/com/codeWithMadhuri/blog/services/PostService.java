@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.codeWithMadhuri.blog.entities.Post;
 import com.codeWithMadhuri.blog.payloads.PostDto;
+import com.codeWithMadhuri.blog.payloads.PostResponse;
 
 public interface PostService {
 	//create
@@ -18,7 +19,7 @@ public interface PostService {
 	void deletePost(Integer postId);
 	
 	//getAllPosts
-	List<PostDto> getAllPost();
+	PostResponse getAllPost(Integer pageNumber,Integer pageSize,String sortBy,String sortDir);
 	
 	//getSinglePost
 	
@@ -30,5 +31,8 @@ public interface PostService {
 	//ListOf posts by User
 		List<PostDto> getPostByUser(Integer userId);
 	//Post search by keyword
+		
+	List<PostDto> searchPosts(String keyword);
+		
 	
 }

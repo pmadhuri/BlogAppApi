@@ -1,227 +1,79 @@
-05.30. 17.18.11.960 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 16632 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 17.18.11.968 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 17.18.12.237 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-05.30. 17.18.12.238 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-05.30. 17.18.14.979 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 17.18.15.102 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 2863 ms
-05.30. 17.18.20.281 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 17.18.20.884 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 17.18.20.962 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 17.18.20.979 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 9.829 seconds (process running for 12.429)
-05.30. 17.18.37.439 [http-nio-9098-exec-2] [INFO] [c.c.blog.controllers.PostController]-createPost method started
-05.30. 17.18.37.757 [http-nio-9098-exec-2] [INFO] [c.c.blog.controllers.PostController]-createPost method ended
-05.30. 17.32.51.238 [http-nio-9098-exec-8] [INFO] [c.c.blog.controllers.PostController]-createPost method started
-05.30. 17.32.51.281 [http-nio-9098-exec-8] [INFO] [c.c.blog.controllers.PostController]-createPost method ended
-05.30. 17.32.59.572 [http-nio-9098-exec-9] [INFO] [c.c.blog.controllers.PostController]-createPost method started
-05.30. 17.32.59.610 [http-nio-9098-exec-9] [INFO] [c.c.blog.controllers.PostController]-createPost method ended
-05.30. 18.05.25.460 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 18.05.25.478 [Thread-5] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 18.05.25.598 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 18.05.25.843 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 16632 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 18.05.25.844 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 18.05.26.343 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 18.05.26.372 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 524 ms
-05.30. 18.05.26.818 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 18.05.26.968 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 18.05.26.985 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 18.05.27.014 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.222 seconds (process running for 2838.464)
-05.30. 18.05.27.025 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 18.43.42.088 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
-05.30. 18.43.42.140 [Thread-7] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 18.43.42.289 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 18.43.42.654 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 16632 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 18.43.42.655 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 18.43.43.280 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 18.43.43.313 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 653 ms
-05.30. 18.43.43.941 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 18.43.44.083 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 18.43.44.104 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 18.43.44.112 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.529 seconds (process running for 5135.562)
-05.30. 18.43.44.115 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 18.44.02.138 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 18.44.02.167 [Thread-11] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 18.44.02.503 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 18.44.02.720 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 16632 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 18.44.02.722 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 18.44.03.277 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 18.44.03.306 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 576 ms
-05.30. 18.44.03.712 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 18.44.03.822 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 18.44.03.841 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 18.44.03.865 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.221 seconds (process running for 5155.315)
-05.30. 18.44.03.866 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 18.51.17.566 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 18.51.17.571 [Thread-15] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 18.51.17.712 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 18.51.17.842 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 16632 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 18.51.17.842 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 18.51.18.177 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 18.51.18.207 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 363 ms
-05.30. 18.51.18.554 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 18.51.18.702 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 18.51.18.723 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 18.51.18.740 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 0.938 seconds (process running for 5590.19)
-05.30. 18.51.18.744 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 18.51.37.777 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 18.51.37.778 [Thread-19] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 18.51.37.915 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 18.51.38.034 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 16632 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 18.51.38.035 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 18.51.38.386 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 18.51.38.417 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 380 ms
-05.30. 18.51.38.750 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 18.51.38.884 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 18.51.38.910 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 18.51.38.928 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 0.929 seconds (process running for 5610.378)
-05.30. 18.51.38.931 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 18.59.56.145 [RMI TCP Connection(126)-127.0.0.1] [INFO] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]-Application shutdown requested.
-05.30. 18.59.56.147 [RMI TCP Connection(126)-127.0.0.1] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 18.59.56.253 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 18.59.56.412 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 16632 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 18.59.56.413 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 18.59.56.557 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown aborted with one or more requests still active
-05.30. 18.59.56.740 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 18.59.56.768 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 353 ms
-05.30. 18.59.57.298 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 18.59.57.418 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 18.59.57.436 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 18.59.57.445 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.069 seconds (process running for 6108.895)
-05.30. 18.59.57.447 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.00.01.401 [RMI TCP Connection(126)-127.0.0.1] [INFO] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]-Application shutdown requested.
-05.30. 19.00.01.402 [RMI TCP Connection(126)-127.0.0.1] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.00.01.520 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.00.14.027 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.00.14.029 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.00.14.108 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-05.30. 19.00.14.109 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-05.30. 19.00.16.294 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.00.16.406 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 2296 ms
-05.30. 19.00.20.575 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.00.21.111 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.00.21.187 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.00.21.201 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 7.839 seconds (process running for 9.527)
-05.30. 19.03.05.150 [http-nio-9098-exec-7] [INFO] [c.c.blog.controllers.PostController]-createPost method started
-05.30. 19.03.05.306 [http-nio-9098-exec-7] [INFO] [c.c.blog.controllers.PostController]-createPost method ended
-05.30. 19.04.04.722 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.04.04.728 [Thread-5] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.04.04.859 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.04.05.070 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.04.05.071 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.04.05.686 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.04.05.730 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 649 ms
-05.30. 19.04.06.355 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.04.06.575 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.04.06.607 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.04.06.622 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.617 seconds (process running for 234.948)
-05.30. 19.04.06.634 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.04.24.774 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.04.24.781 [Thread-7] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.04.25.075 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.04.25.283 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.04.25.283 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.04.25.803 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.04.25.842 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 554 ms
-05.30. 19.04.26.242 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.04.26.435 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.04.26.459 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.04.26.487 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.265 seconds (process running for 254.812)
-05.30. 19.04.26.489 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.07.02.445 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.07.02.493 [Thread-11] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.07.03.790 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.07.04.171 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.07.04.172 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.07.04.932 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.07.05.148 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 970 ms
-05.30. 19.07.05.700 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.07.05.911 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.07.05.955 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.07.05.971 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.915 seconds (process running for 414.297)
-05.30. 19.07.05.984 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.12.30.800 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
-05.30. 19.12.30.802 [Thread-15] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.12.30.916 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.12.31.037 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.12.31.037 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.12.31.390 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.12.31.412 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 371 ms
-05.30. 19.12.31.720 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.12.31.928 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.12.31.949 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.12.31.966 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 0.969 seconds (process running for 740.292)
-05.30. 19.12.31.972 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.13.03.678 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.13.03.683 [Thread-19] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.13.03.838 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.13.03.982 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.13.03.982 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.13.04.296 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.13.04.321 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 336 ms
-05.30. 19.13.04.600 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.13.04.710 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.13.04.726 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.13.04.748 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 0.824 seconds (process running for 773.074)
-05.30. 19.13.04.751 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.13.37.408 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.13.37.411 [Thread-23] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.13.37.562 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.13.37.667 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.13.37.668 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.13.37.994 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.13.38.016 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 346 ms
-05.30. 19.13.38.367 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.13.38.482 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.13.38.501 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.13.38.510 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 0.877 seconds (process running for 806.836)
-05.30. 19.13.38.514 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.13.48.320 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.13.48.323 [Thread-27] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.13.48.437 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.13.48.549 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.13.48.550 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.13.48.850 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.13.48.880 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 327 ms
-05.30. 19.13.49.213 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.13.49.315 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.13.49.330 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.13.49.349 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 0.835 seconds (process running for 817.675)
-05.30. 19.13.49.353 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.19.09.447 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.19.09.451 [Thread-31] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.19.09.636 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.19.09.788 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.19.09.788 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.19.10.199 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.19.10.242 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 446 ms
-05.30. 19.19.10.797 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.19.10.956 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.19.10.989 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.19.11.014 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.264 seconds (process running for 1139.339)
-05.30. 19.19.11.028 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.19.40.359 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.19.40.382 [Thread-35] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.19.40.697 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.19.41.012 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.19.41.019 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.19.42.196 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.19.42.284 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1259 ms
-05.30. 19.19.43.215 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.19.43.512 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.19.43.560 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.19.43.581 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 2.732 seconds (process running for 1171.907)
-05.30. 19.19.43.601 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.27.35.449 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-05.30. 19.27.35.469 [Thread-39] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.27.35.644 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
-05.30. 19.27.35.982 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 19844 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
-05.30. 19.27.35.982 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
-05.30. 19.27.37.203 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
-05.30. 19.27.37.278 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1286 ms
-05.30. 19.27.38.557 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-05.30. 19.27.38.929 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
-05.30. 19.27.38.963 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
-05.30. 19.27.38.981 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 3.115 seconds (process running for 1647.306)
-05.30. 19.27.38.991 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
-05.30. 19.29.15.682 [RMI TCP Connection(66)-127.0.0.1] [INFO] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]-Application shutdown requested.
-05.30. 19.29.15.684 [RMI TCP Connection(66)-127.0.0.1] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
-05.30. 19.29.15.916 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+06.04. 17.53.49.346 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 6048 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+06.04. 17.53.49.420 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+06.04. 17.53.49.722 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+06.04. 17.53.49.723 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+06.04. 17.53.58.416 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+06.04. 17.53.58.937 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 9211 ms
+06.04. 17.54.11.318 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06.04. 17.54.12.560 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+06.04. 17.54.12.689 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+06.04. 17.54.12.714 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 27.477 seconds (process running for 34.433)
+06.04. 18.03.36.739 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+06.04. 18.03.36.752 [Thread-5] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+06.04. 18.03.37.022 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+06.04. 18.03.37.438 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 6048 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+06.04. 18.03.37.443 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+06.04. 18.03.38.509 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+06.04. 18.03.38.576 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1122 ms
+06.04. 18.03.39.751 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06.04. 18.03.40.022 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+06.04. 18.03.40.064 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+06.04. 18.03.40.089 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 2.892 seconds (process running for 601.809)
+06.04. 18.03.40.110 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
+06.04. 18.05.54.165 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+06.04. 18.05.54.299 [Thread-7] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+06.04. 18.05.55.348 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+06.04. 18.05.55.613 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 6048 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+06.04. 18.05.55.614 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+06.04. 18.05.57.447 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+06.04. 18.05.57.487 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1868 ms
+06.04. 18.05.58.109 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06.04. 18.05.58.347 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+06.04. 18.05.58.384 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+06.04. 18.05.58.412 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 2.907 seconds (process running for 740.131)
+06.04. 18.05.58.420 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
+06.04. 18.05.59.793 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+06.04. 18.05.59.795 [Thread-11] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+06.04. 18.05.59.977 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+06.04. 18.06.00.170 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 6048 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+06.04. 18.06.00.175 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+06.04. 18.06.00.733 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+06.04. 18.06.00.768 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 588 ms
+06.04. 18.06.01.318 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06.04. 18.06.01.534 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+06.04. 18.06.01.564 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+06.04. 18.06.01.589 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.491 seconds (process running for 743.309)
+06.04. 18.06.01.593 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
+06.04. 18.08.58.313 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+06.04. 18.08.58.316 [Thread-15] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+06.04. 18.08.58.442 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+06.04. 18.08.58.556 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 6048 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+06.04. 18.08.58.556 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+06.04. 18.08.58.906 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+06.04. 18.08.58.932 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 374 ms
+06.04. 18.08.59.298 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06.04. 18.08.59.443 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+06.04. 18.08.59.462 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+06.04. 18.08.59.480 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 0.963 seconds (process running for 921.199)
+06.04. 18.08.59.484 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
+06.04. 18.10.07.961 [http-nio-9098-exec-2] [INFO] [c.c.blog.controllers.PostController]-getAllPost method started
+06.04. 18.10.07.962 [http-nio-9098-exec-2] [INFO] [c.c.blog.impl.PostServiceImpl]-Pagination started
+06.04. 18.10.07.964 [http-nio-9098-exec-2] [INFO] [c.c.blog.impl.PostServiceImpl]-getAllPost from PostServiceImpl  method started.
+06.04. 18.10.08.047 [http-nio-9098-exec-2] [INFO] [c.c.blog.impl.PostServiceImpl]-getAllPost from PostServiceImpl  method ended.
+06.04. 18.10.08.047 [http-nio-9098-exec-2] [INFO] [c.c.blog.impl.PostServiceImpl]-Pagination logic here.
+06.04. 18.10.08.048 [http-nio-9098-exec-2] [INFO] [c.c.blog.controllers.PostController]-getAllPost method ended
+06.04. 18.14.34.240 [File Watcher] [INFO] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener]-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+06.04. 18.14.34.244 [Thread-19] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+06.04. 18.14.34.469 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete
+06.04. 18.14.34.650 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Starting BlogAppApi2Application using Java 17.0.12 with PID 6048 (C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2\target\classes started by Sandeep in C:\Users\Sandeep\Desktop\BikkadIT\stsWorkspace\Blog_App_Api-2)
+06.04. 18.14.34.651 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-No active profile set, falling back to 1 default profile: "default"
+06.04. 18.14.35.092 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port 9098 (http)
+06.04. 18.14.35.115 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 461 ms
+06.04. 18.14.35.460 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06.04. 18.14.35.582 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+06.04. 18.14.35.603 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port 9098 (http) with context path '/'
+06.04. 18.14.35.615 [restartedMain] [INFO] [c.c.blog.BlogAppApi2Application]-Started BlogAppApi2Application in 1.024 seconds (process running for 1257.334)
+06.04. 18.14.35.625 [restartedMain] [INFO] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener]-Condition evaluation unchanged
+06.04. 18.14.38.397 [RMI TCP Connection(44)-127.0.0.1] [INFO] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]-Application shutdown requested.
+06.04. 18.14.38.398 [RMI TCP Connection(44)-127.0.0.1] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Commencing graceful shutdown. Waiting for active requests to complete
+06.04. 18.14.38.516 [tomcat-shutdown] [INFO] [o.s.b.w.e.tomcat.GracefulShutdown]-Graceful shutdown complete

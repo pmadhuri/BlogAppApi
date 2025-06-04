@@ -8,6 +8,10 @@ import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.codeWithMadhuri.blog.controllers.UserController;
@@ -16,6 +20,7 @@ import com.codeWithMadhuri.blog.entities.Post;
 import com.codeWithMadhuri.blog.entities.User;
 import com.codeWithMadhuri.blog.exceptions.ResourceNotFoundException;
 import com.codeWithMadhuri.blog.payloads.PostDto;
+import com.codeWithMadhuri.blog.payloads.PostResponse;
 import com.codeWithMadhuri.blog.repositories.CategoryRepository;
 import com.codeWithMadhuri.blog.repositories.PostRepository;
 import com.codeWithMadhuri.blog.repositories.UserRepository;
@@ -82,13 +87,42 @@ public class PostServiceImpl implements PostService {
 
 	// 4 getAllPost
 	@Override
-	public List<PostDto> getAllPost() {
+	public PostResponse getAllPost(Integer pageNumber,Integer pageSize,String sortBy,String sortDir) {
+		//pagination
+		logger.info("Pagination started");
+//		int pageSize=5;
+//		int pageNumber=1;
+		
+	/*	Sort sort=null;
+		if(sortDir.equalsIgnoreCase("asc")) {
+			sort=Sort.by(sortBy).ascending();
+		}else {
+			sort=Sort.by(sortBy).descending();
+		}*/
+		Sort sort=(sortDir.equalsIgnoreCase("asc"))?Sort.by(sortBy).ascending():Sort.by(sortBy).descending();
+		Pageable p=PageRequest.of(pageNumber,pageSize,sort);
+		
 		logger.info("getAllPost from PostServiceImpl  method started.");
-		List<Post> allposts = this.postRepository.findAll();
+		//List<Post> allposts = this.postRepository.findAll();
+		//pagination
+		
+		Page<Post> pagePost = this.postRepository.findAll(p);
+		List<Post> allposts = pagePost.getContent();
+		
 		List<PostDto> postDtos = allposts.stream().map((post) -> this.modelmapper.map(post, PostDto.class))
 				.collect(Collectors.toList());
 		logger.info("getAllPost from PostServiceImpl  method ended.");
-		return postDtos;
+		//Pagination
+		logger.info("Pagination logic here.");
+		PostResponse postResponse =new PostResponse();
+		postResponse.setContent(postDtos);
+		postResponse.setPageNumber(pagePost.getNumber());
+		postResponse.setPageSize(pagePost.getSize());
+		postResponse.setTotalElements(pagePost.getTotalElements());
+		postResponse.setTotalpages(pagePost.getTotalPages());
+		postResponse.setLastPage(pagePost.isLast());
+		
+		return postResponse;
 	}
 
 	// 5 getPostById
@@ -125,6 +159,13 @@ public class PostServiceImpl implements PostService {
 		List<PostDto> postDtos = posts.stream().map((post) -> this.modelmapper.map(post, PostDto.class))
 				.collect(Collectors.toList());
 		logger.info("getPostByUser from PostServiceImpl  method ended.");
+		return postDtos;
+	}
+
+	@Override
+	public List<PostDto> searchPosts(String keyword) {
+		List<Post> posts = this.postRepository.findByTitleContaining(keyword);//("%"+keyword+"%")
+		List<PostDto> postDtos = posts.stream().map((post)->this.modelmapper.map(post, PostDto.class)).collect(Collectors.toList());
 		return postDtos;
 	}
 
